@@ -1,5 +1,6 @@
 :root {
     --text-color: #667085;
+    --main-color: #8E2424;
 }
 
 * {
@@ -18,7 +19,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 
 .content a{
@@ -28,7 +29,7 @@ nav {
 }
 
 
-.nav-actions {
+.nav-buttons {
     padding: 0.8rem 1rem;
     cursor: pointer;
     border: none;
@@ -39,7 +40,45 @@ nav {
     font-size: 0.9rem;
 }
 
+.nav-buttons a {
+    color: var(--text-color);
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
 .cadastro {
-    background-color: #8e2424;
+    background: #8E2424;
+    border: 1px solid #8E2424;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
     color: #FFF;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+.cabecalho {
+    padding: 70px;
+    border: none; 
+    text-align: center;  
+}
+
+h5 {
+    color: var(--main-color);
+    line-height: 10px;
+    font-size: 16px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 100px;
+}
+
+p {
+    padding: 0px 300px 0px 300px;
+    width: 100%;
+    color:var(--text-color);
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
 }
